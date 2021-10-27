@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    /* background-color: black !important; */
+    color: white !important;
+    background-image: url("../images/simon-lee-9QbuKUPFaNI-unsplash.jpg");
+}
+
+h1 {
+    font-size: 70px !important;
+    font-weight: 500 !important;
+    margin-bottom: 0 !important;
+}
+
+h2 {
+    font-size: 40px !important;
+    font-weight: 300 !important;
+    margin-bottom: 10px !important;
+}
+
+h3, h4 {
+    margin: 0;
+    margin-bottom: 5px !important;
+}
+
+h4 {
+    font-size: 20px !important;
+    font-weight: 300 !important;
+}
+
+/* img {
+    max-width: 900px;
+    opacity: 0.6;
+} */
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    height: auto;
+    padding: 20px;
+    position: relative;
+    z-index: 99;
+    text-align: right;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.nav-item:hover {
+    color: #0A0A0C;
+    border-bottom: 2px solid #0A0A0C;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInLeft {
+    --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+}
+
+.header {
+    /* height: 400px; */
+    height: 70vh;
+    margin: 20px;
+    max-width: 600px;
+    padding-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.header-image {
+    max-width: 100vw;
+    /* height: 100vh; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education-container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.section {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.list-container {
+    width: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    /* border: 1px solid lightgray; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    padding: 20px;
+    /* background:rgba(61, 71, 83, 0.8) !important; */
+    /* background: rgba(117, 130, 146, 0.8) !important; */
+    /* opacity: 0.3; */
+}
+
+.row {
+    justify-content: space-around  !important;
+}
+
+.list-group-item {
+    margin-left: 10px;
+    /* border-radius: 5px; */
+    /* margin-bottom: 5px; */
+}
+
+#list-tab {
+    padding-top: 50px;
+}
+
+.details {
+    padding: 20px;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+
+.timeline {
+    width: 1000px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+    padding: 40px;
+    padding-top: 70px;
+}
+
+.left {
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.list {
+    width: auto;
+}
+
+.exp-container {
+    padding: 5px;
+    width: 550px;
+    height: 300px;
+}
+
+.card-container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    padding: 5px;
+    /* border-radius: 5px; */
+    /* border: 1px solid lightgray; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    /* background:rgba(61, 71, 83, 0.8) !important; */
+    /* background: rgba(117, 130, 146, 0.8) !important; */
+    background: none !important;
+    border: 2px solid gray !important;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    height: 50px;
+    padding: 20px;
+    margin-left: 500px;
+    /* border-top: 1px solid lightgray; */
+}
